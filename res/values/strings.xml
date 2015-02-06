@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidEEG</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    
+    <!-- Action Bar Buttons -->    
+	<string name="action_exit">Exit</string>   
+    <string name="action_connect">Connect</string>
+	
+	
+	
+    <!-- Menu Items Name Array -->
+    <string-array name="slide_menu_names">
+        <item>Connect Device</item>
+        <item>Standard Mode</item>
+        <item>Stimulus Mode</item>
+        <item>Interaction Mode</item>
+        <item>Utilities</item>
+        <item>About Us</item>
+    </string-array>
+
+    <!-- Menu Items Icon Array -->
+    <array name="slide_menu_icons">
+        <item>@drawable/ic_connect</item>
+        <item>@drawable/ic_standard</item>
+        <item>@drawable/ic_stimulus</item>
+        <item>@drawable/ic_interaction</item>
+        <item>@drawable/ic_utilities</item>
+        <item>@drawable/ic_about</item>
+    </array>
+
+    <!-- State of Device -->
+    <string name="state_idle">Not connected to a headset</string>
+    <string name="state_connecting">Attempting a connection to the headset</string>
+    <string name="state_connected">A valid device hand been found and data is being received</string>
+    <string name="state_disconnected">The connection to the device is lost</string>
+    <string name="state_not_found">Could not connect to headset</string>
+    <string name="state_not_paried">A valid headset could not be found</string>
+
+    <!-- Other strings -->
+    <string name="devices_available">Available Devices</string>
+    <string name="devices_paired">Paired Devices</string>
+    <string name="card_back_title">Nausicaa</string>
+    <string name="card_back_description">my goddess</string>
+
+    <!-- directions -->
+    <string name="button_forward">Forward</string>
+    <string name="button_backward">Backward</string>
+    <string name="button_left">Leftward</string>
+    <string name="button_right">Rightward</string>
+	<string name="button_center">Center</string>
+   
+    <!-- Bluetooth Connection -->
+    <string name="bt_discover_start">start discovering devices</string>
+    <string name="bt_discover_finish">finish discovering devices</string>
+    <string name="title_activity_test">TestActivity</string>
+
+</resources>

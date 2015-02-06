@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Connection Status:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="status: unknown" />
+
+        <TextView
+            android:id="@+id/signal_strength"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="signal strength: unknown" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Proccessed Mental States:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/attention"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="attention: unknown" />
+
+        <TextView
+            android:id="@+id/meditation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="meditation: unknown" />
+
+        <TextView
+            android:id="@+id/raw_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="raw_data: unknown" />
+
+        <TextView
+            android:id="@+id/blink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="blink: unknown" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rhythmic activity frequency bands:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <TextView
+            android:id="@+id/eeg_power_delta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EEG Power Delta: unknown" />
+        
+        <TextView
+            android:id="@+id/eeg_power_theta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EEG Power Theta: unknown" />
+
+        <TextView
+            android:id="@+id/eeg_power_alpha1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EEG Power Alpha1: unknown" />
+        
+        <TextView
+            android:id="@+id/eeg_power_alpha2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EEG Power Alpha2: unknown" />
+        <TextView
+            android:id="@+id/eeg_power_beta1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EEG Power Beta1: unknown" />
+        
+        <TextView
+            android:id="@+id/eeg_power_beta2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EEG Power Beta2: unknown" />      
+                 
+         <TextView
+            android:id="@+id/eeg_power_gamma1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EEG Power Gamma1: unknown" />     
+                      
+        <TextView
+            android:id="@+id/eeg_power_gamma2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EEG Power Gamma2: unknown" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
